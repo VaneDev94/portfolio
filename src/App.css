@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-transparent text-[#ffffff] font-primary scroll-smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  section {
+    @apply py-16;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-7xl p-6 md:p-12 xl:p-6;
+  }
+
+  .title {
+    @apply text-3xl sm:text-4xl font-bold mb-6;
+  }
+
+  .subtitle {
+    @apply text-lg text-[#b0b0b0] mb-4;
+  }
+
+  .btn-primary {
+    @apply inline-block p-3 bg-[#3ee6c1] text-black rounded-md font-medium transition-all duration-300 hover:opacity-80;
+  }
+
+  .btn-outline {
+    @apply inline-block p-3 border border-[#3ee6c1] text-[#3ee6c1] rounded-md font-medium transition-all duration-300 hover:bg-[#3ee6c1] hover:text-black;
+  }
+}

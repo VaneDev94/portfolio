@@ -1,0 +1,120 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "skills": "Herramientas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "¡Hola! Soy",
+    "title": "Vanessa Montero",
+    "title1": "Desarrolladora Junior",
+    "title2": "Bots, backend & Automatización",
+    "subtitle": "Desarrollo bots, automatizaciones y backends personalizados. Me encanta crear sistemas que hacen el trabajo por ti, conectan servicios y simplifican procesos.",
+    "contact": "Contáctame",
+    "projects": "Ver proyectos",
+    "paragraph1": "<strong>Me encanta crear soluciones inteligentes</strong> que automatizan tareas.",
+    "paragraph2": "<strong>Conectan servicios</strong> y hacen el trabajo por ti.",
+    "paragraph3": "Combino <strong>creatividad</strong> y <strong>lógica</strong> para resolver problemas reales.",
+    "paragraph4": "Con <strong>código limpio</strong> y eficiente.",
+    "paragraph5": "Aunque mi fuerte es el <strong>backend</strong> y la <strong>automatización</strong>, también sé moverme en <strong>frontend</strong>."
+  },
+  "services": {
+    "title": "¿Qué puedo hacer por ti?",
+    "automation": {
+      "title": "¿Tu tienda necesita actualizar productos sola?",
+      "description": "Automatiza la subida y actualización de productos desde Google Sheets, APIs o bases de datos externas."
+    },
+    "backend": {
+      "title": "¿Quieres un backend a medida para tu tienda?",
+      "description": "Te creo toda la lógica: bases de datos, pagos, login social, recompensas y panel admin."
+    },
+    "webdev": {
+      "title": "¿Tu web necesita más funciones?",
+      "description": "La conecto a bots, herramientas externas o automatizaciones para que trabaje por ti."
+    }
+  },
+  "projects": {
+    "title": "Proyectos destacados",
+    "bot": {
+      "title": "Bot IA para tiendas",
+      "description": "Un bot inteligente que automatiza la atención al cliente en e-commerce, integrando OpenAI y funciones avanzadas."
+    },
+    "scraper": {
+      "title": "Scraper automático",
+      "description": "Sistema que extrae productos y precios en tiempo real desde webs como Wix usando Selenium."
+    },
+    "dashboard": {
+      "title": "Panel de administración",
+      "description": "Dashboard profesional con estadísticas, gestión de productos, usuarios, y sistema de recompensas."
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "description": "Puedes escribirme directamente por correo o ver mis proyectos en GitHub.",
+    "email": "vanedev.contacto@gmail.com",
+    "github": "Ir al GitHub",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo",
+    "emailPlaceholder": "tuemail@example.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Escribe tu mensaje aquí...",
+    "send": "Enviar"
+  },
+  "footer": {
+    "text": "Disponible para proyectos freelance y colaboraciones."
+  }
+  ,
+  "skills": {
+    "title": "Habilidades & Herramientas",
+    "frameworks": {
+      "title": "Frameworks",
+      "list": [
+        "FastAPI",
+        "React",
+        "Tailwind CSS"
+      ]
+    },
+    "languages": {
+      "title": "Lenguajes",
+      "list": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    "concepts": {
+      "title": "Conceptos & Nociones",
+      "list": [
+        "Scraping Web con Selenium y BeautifulSoup",
+        "Automatización de Bots",
+        "APIs REST",
+        "Autenticación JWT",
+        "Control de versiones con Git",
+        "Contenerización con Docker",
+        "Despliegue y hosting básico",
+        "Internacionalización multilenguaje",
+        "Desarrollo backend y frontend",
+        "Diseño y arquitectura de APIs"
+      ]
+    },
+    "tools": {
+      "title": "Herramientas",
+      "list": [
+        "Git",
+        "Docker",
+        "Selenium",
+        "BeautifulSoup",
+        "OpenAI API (GPT-4, Function Calling)",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Alembic (Migraciones)",
+        "Framer Motion",
+        "i18next (i18n)",
+        "VS Code"
+      ]
+    }
+  }
+}

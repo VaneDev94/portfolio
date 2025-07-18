@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100vh;
+  width: 100%;
+  background: transparent;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0f14; /* color sólido de respaldo */
+  background-image: linear-gradient(180deg, #0a0f14 0%, #000000 100%);
+  color: rgb(255, 255, 255);
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.section {
+  padding: 1.5rem;
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade 0.5s ease-in-out forwards;
+}
+
+.text-glow {
+  text-shadow: 0 0 4px rgba(0, 255, 201, 0.5);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.lang-btn-large {
+  font-size: 1rem !important;
+}
+
+.domain-large {
+  font-size: 3rem !important;
+}
+
+.menu-large {
+  font-size: 1.4rem !important;
+}
+
+#skills, #projects {
+  scroll-margin-top: 6rem; /* espacio para menú fijo */
+}
+
+#contact {
+  scroll-margin-top: 6rem; /* espacio para menú fijo */
+  margin-top: 6rem;
+  padding-bottom: 0;
+}

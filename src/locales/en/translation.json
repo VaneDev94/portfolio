@@ -1,0 +1,118 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello! I'm",
+    "title1": "Developer Junior",
+    "title2": "Bots, backend & Automations.",
+    "subtitle": "I develop bots, automations, and custom backends that do the work for you, connect services, and simplify processes.",
+    "contact": "Contact Me",
+    "projects": "See Projects",
+    "paragraph1": "<strong>I love creating smart solutions</strong> that automate tasks.",
+    "paragraph2": "<strong>They connect services</strong> and do the work for you.",
+    "paragraph3": "I combine <strong>creativity</strong> and <strong>logic</strong> to solve real problems.",
+    "paragraph4": "With <strong>clean</strong> and efficient code.",
+    "paragraph5": "Although my strength is backend and automation, I can also handle frontend."
+  },
+  "services": {
+    "title": "What I Can Do For You",
+    "automation": {
+      "title": "Need your store to update products automatically?",
+      "description": "Automate product uploads and updates from Google Sheets, APIs, or external databases."
+    },
+    "backend": {
+      "title": "Want a custom backend for your store?",
+      "description": "I build all the logic: databases, payments, social login, rewards, and admin panels."
+    },
+    "webdev": {
+      "title": "Need more features on your website?",
+      "description": "I connect it to bots, external tools, or automations so it works for you."
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "bot": {
+      "title": "AI Bot for Stores",
+      "description": "An intelligent bot that automates customer service in e-commerce, integrating OpenAI and advanced functions."
+    },
+    "scraper": {
+      "title": "Automated Scraper",
+      "description": "System that extracts products and prices in real time from websites like Wix using Selenium."
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "description": "Professional dashboard with stats, product and user management, and rewards system."
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "You can write to me directly by email or check out my projects on GitHub.",
+    "email": "vanedev.contacto@gmail.com",
+    "github": "Go to GitHub",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "youremail@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "send": "Send"
+  },
+  "footer": {
+    "text": "Available for freelance projects and collaborations."
+  },
+  "skills": {
+    "title": "Skills & Tools",
+    "frameworks": {
+      "title": "Frameworks",
+      "list": [
+        "FastAPI",
+        "React",
+        "Tailwind CSS"
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "list": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    "concepts": {
+      "title": "Concepts & Notions",
+      "list": [
+        "Web Scraping with Selenium and BeautifulSoup",
+        "Bot Automation",
+        "REST APIs",
+        "JWT Authentication",
+        "Version control with Git",
+        "Containerization with Docker",
+        "Basic deployment and hosting",
+        "Multilanguage internationalization",
+        "Backend and frontend development",
+        "API design and architecture"
+      ]
+    },
+    "tools": {
+      "title": "Tools",
+      "list": [
+        "Git",
+        "Docker",
+        "Selenium",
+        "BeautifulSoup",
+        "OpenAI API (GPT-4, Function Calling)",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Alembic (Migrations)",
+        "Framer Motion",
+        "i18next (i18n)",
+        "VS Code"
+      ]
+    }
+  }
+}
