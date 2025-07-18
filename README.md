@@ -1,12 +1,33 @@
-# React + Vite
+# Portfolio de Vanessa Montero
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi portfolio personal desarrollado con React, Vite y Tailwind CSS.
 
-Currently, two official plugins are available:
+He creado este sitio para presentarme como desarrolladora freelance especializada en automatización, bots de IA y desarrollo backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- i18next (internacionalización)
+- GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Dominio personalizado
+
+Puedes visitar el portfolio online en:  
+[https://vanessam.dev](https://vanessam.dev)
+
+## 📬 Contacto
+
+- Email: vanedev.contacto@gmail.com
+- GitHub: [github.com/VaneDev94](https://github.com/VaneDev94)
+
+## 📁 Estructura del proyecto
+
+- `/src/components`: Componentes reutilizables como Navbar, Footer, etc.
+- `/src/pages`: Páginas principales como Home.
+- `/src/locales`: Archivos de traducción para múltiples idiomas.
+- `vite.config.js`: Configuración base para GitHub Pages.
+
+---
+© 2025 Vanessa Montero. Todos los derechos reservados.

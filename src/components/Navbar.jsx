@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -23,7 +24,7 @@ const Navbar = () => {
         {/* Dominio izquierda */}
         <a href="https://vanessamontero.dev" className="flex items-center">
           <img
-            src="/src/assets/logo.png"
+            src={logo}
             alt="VanessaM logo"
             style={{ width: '250px', height: 'auto' }}
           />
