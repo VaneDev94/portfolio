@@ -22,7 +22,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between h-[65px] max-w-[1400px] mx-auto px-6">
         {/* Dominio izquierda */}
-        <a href="https://vanessamontero.dev" className="flex items-center">
+        <a href="https://vanessam.dev/" className="flex items-center">
           <img
             src={logo}
             alt="VanessaM logo"
