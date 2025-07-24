@@ -21,32 +21,80 @@
   },
   "services": {
     "title": "¿Qué puedo hacer por ti?",
-    "automation": {
-      "title": "¿Tu tienda necesita actualizar productos sola?",
-      "description": "Automatiza la subida y actualización de productos desde Google Sheets, APIs o bases de datos externas."
-    },
     "backend": {
       "title": "¿Quieres un backend a medida para tu tienda?",
       "description": "Te creo toda la lógica: bases de datos, pagos, login social, recompensas y panel admin."
     },
-    "webdev": {
-      "title": "¿Tu web necesita más funciones?",
-      "description": "La conecto a bots, herramientas externas o automatizaciones para que trabaje por ti."
+    "bots": {
+      "title": "¿Necesitas un bot inteligente o automatizado?",
+      "description": "Diseño bots personalizados para WhatsApp, webs o tiendas online. Pueden funcionar con IA o sin ella, según tus necesidades."
+    },
+    "dashboard": {
+      "title": "¿Necesitas un panel personalizado?",
+      "description": "Creo dashboards web para gestionar datos, administrar bots o visualizar informes."
+    },
+    "integrations": {
+      "title": "¿Quieres conectar servicios externos?",
+      "description": "Integro servicios como Google Sheets, email, WhatsApp, APIs web, y automatizo tus procesos."
+    },
+    "automation": {
+      "title": "¿Te gustaría automatizar tu negocio?",
+      "description": "Diseño flujos automáticos personalizados que conectan tus sistemas, ahorran tiempo y eliminan tareas repetitivas. Ideal para empresas que buscan eficiencia real."
     }
   },
   "projects": {
-    "title": "Proyectos destacados",
+    "title": "Proyectos",
     "bot": {
       "title": "Bot IA para tiendas",
-      "description": "Un bot inteligente que automatiza la atención al cliente en e-commerce, integrando OpenAI y funciones avanzadas."
+      "description": "Bot inteligente que automatiza la atención al cliente en e-commerce, integrando OpenAI y funciones avanzadas."
+    },
+    "porfolio": {
+      "title": "Portfolio profesional",
+      "description": "Sitio web moderno y responsive donde muestro mis proyectos, habilidades y formas de contacto."
+    },
+    "webquirky": {
+      "title": "Web Quirky Art",
+      "description": "Web personalizada con backend completo, panel de administración y sistema de recompensas."
+    },
+    "botlara": {
+      "title": "Bot IA para Lara",
+      "description": "Bot conectado a OpenAI que automatiza la atención al cliente en su tienda online."
+    },
+    "botwhatsapp": {
+      "title": "Bot para WhatsApp",
+      "description": "Bot para gestionar pedidos y consultas por WhatsApp con integración inteligente."
+    },
+    "formulario": {
+      "title": "Formulario personalizado",
+      "description": "Formulario de contacto funcional y con diseño adaptado al estilo de la web."
     },
     "scraper": {
-      "title": "Scraper automático",
-      "description": "Sistema que extrae productos y precios en tiempo real desde webs como Wix usando Selenium."
+      "title": "Scraper de productos",
+      "description": "Scraper con Selenium para obtener productos en tiempo real desde una web con JavaScript."
     },
-    "dashboard": {
+    "adminpanel": {
       "title": "Panel de administración",
-      "description": "Dashboard profesional con estadísticas, gestión de productos, usuarios, y sistema de recompensas."
+      "description": "Panel personalizado para gestionar pedidos, productos, recompensas y mantenimiento del backend."
+    },
+    "recompensas": {
+      "title": "Sistema de recompensas",
+      "description": "Sistema de puntos (Quirky Points) que los usuarios pueden canjear por cupones y beneficios."
+    },
+    "autenticacion": {
+      "title": "Autenticación con Google",
+      "description": "Inicio de sesión con cuenta de Google y migración automática de usuarios desde Wix."
+    },
+    "fullbackend": {
+      "title": "Backend completo con FastAPI",
+      "description": "Sistema backend profesional con autenticación, puntos de fidelización, panel de administración, y base de datos PostgreSQL. Optimizado para producción y escalable."
+    },
+    "todoapp": {
+      "title": "App de tareas personal",
+      "description": "Aplicación de tareas hecha con React. Permite añadir, editar y eliminar tareas con almacenamiento local. Ideal para mantener el control de tus pendientes diarios."
+    },
+    "contactform": {
+      "title": "Formulario de contacto",
+      "description": "Formulario funcional con validación, diseño personalizado y conexión directa a Formspree para recibir mensajes desde la web."
     }
   },
   "contact": {
@@ -64,8 +112,7 @@
   },
   "footer": {
     "text": "Disponible para proyectos freelance y colaboraciones."
-  }
-  ,
+  },
   "skills": {
     "title": "Habilidades & Herramientas",
     "frameworks": {

@@ -9,8 +9,8 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="min-h-screen max-w-6xl mx-auto px-6 pt-40 pb-28 bg-gradient-to-b from-black/80 to-black/90 flex flex-col"
-      style={{ scrollMarginTop: "80px" }}
+      className="min-h-screen max-w-6xl mx-auto px-6 pt-40 bg-gradient-to-b from-black/80 to-black/90 flex flex-col"
+      style={{ scrollMarginTop: "80px", paddingBottom: "1rem" }}
     >
       <h2
         style={{
@@ -19,7 +19,7 @@ const Skills = () => {
           WebkitTextFillColor: "transparent",
           fontWeight: "800",
           fontSize: "3.8rem",
-          marginBottom: "7rem",
+          marginBottom: "6.4rem",
           textAlign: "center",
           fontFamily: "'Poppins', sans-serif"
         }}

@@ -1,46 +1,56 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-
-const services = [
-  {
-    key: "automation",
-  },
-  {
-    key: "backend",
-  },
-  {
-    key: "webdev",
-  },
-];
 
 const Services = () => {
   const { t } = useTranslation();
 
+  const services = [
+    {
+      title: t("services.backend.title"),
+      description: t("services.backend.description"),
+    },
+    {
+      title: t("services.bots.title"),
+      description: t("services.bots.description"),
+    },
+    {
+      title: t("services.dashboard.title"),
+      description: t("services.dashboard.description"),
+    },
+    {
+      title: t("services.integrations.title"),
+      description: t("services.integrations.description"),
+    },
+    {
+      title: t("services.automation.title"),
+      description: t("services.automation.description"),
+    },
+  ];
+
   return (
-    <section className="section">
-      <motion.h2
-        initial={{ opacity: 0, y: -30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="text-3xl sm:text-4xl font-bold text-center text-white mb-10"
-      >
+    <section
+      id="services"
+      className="max-w-6xl mx-auto px-2 py-[0rem] pb-[5rem] bg-black text-white text-center"
+    >
+      <h2 className="text-[3rem] md:text-[4rem] font-bold text-center mb-[3.5rem] bg-gradient-to-r from-[#8fefee] via-[#3ee6c1] to-[#2da59c] text-transparent bg-clip-text leading-tight tracking-wide">
         {t("services.title")}
-      </motion.h2>
-      <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2.5rem]">
         {services.map((service, index) => (
-          <motion.div
+          <div
             key={index}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="bg-transparent px-6 py-6 rounded-lg shadow-lg text-white/90"
+            className="bg-transparent p-[0.2rem] hover:scale-105 transform transition-transform duration-300 space-y-[1.5rem]"
           >
-            <h3 className="text-xl font-semibold text-blue-500 mb-2">{t(`services.${service.key}.title`)}</h3>
-            <p className="text-white/60 text-sm">{t(`services.${service.key}.description`)}</p>
-          </motion.div>
+            <h3 className="text-[1.6rem] font-semibold bg-gradient-to-r from-[#8fefee] via-[#3ee6c1] to-[#2da59c] text-transparent bg-clip-text leading-snug tracking-normal">
+              {service.title}
+            </h3>
+            <p className="text-gray-300 text-[1.1rem] leading-relaxed tracking-wide">
+              {service.description}
+            </p>
+          </div>
         ))}
       </div>
+      <div className="mt-[1rem]"></div>
     </section>
   );
 };

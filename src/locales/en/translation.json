@@ -20,32 +20,50 @@
   },
   "services": {
     "title": "What I Can Do For You",
-    "automation": {
-      "title": "Need your store to update products automatically?",
-      "description": "Automate product uploads and updates from Google Sheets, APIs, or external databases."
-    },
     "backend": {
-      "title": "Want a custom backend for your store?",
-      "description": "I build all the logic: databases, payments, social login, rewards, and admin panels."
+      "title": "Need a custom backend for your store?",
+      "description": "I build all the logic: databases, payments, social login, rewards system, and admin panel."
     },
-    "webdev": {
-      "title": "Need more features on your website?",
-      "description": "I connect it to bots, external tools, or automations so it works for you."
+    "bots": {
+      "title": "Need a smart or automated bot?",
+      "description": "I design custom bots for WhatsApp, websites, or online stores. They can work with or without AI depending on your needs."
+    },
+    "dashboard": {
+      "title": "Need a personalized dashboard?",
+      "description": "I create web dashboards to monitor data, manage bots, or visualize reports."
+    },
+    "integrations": {
+      "title": "Need to connect external services?",
+      "description": "I integrate services like Google Sheets, email, WhatsApp, web APIs, and automate your processes."
+    },
+    "automation": {
+      "title": "Need to automate your processes?",
+      "description": "Automate your workflows with bots, APIs, or integrations. I connect and optimize tasks using tools like Google Sheets, email, and more."
     }
   },
   "projects": {
-    "title": "Featured Projects",
+    "title": "Projects",
+    "view": "View project",
+    "more": "More info",
     "bot": {
-      "title": "AI Bot for Stores",
-      "description": "An intelligent bot that automates customer service in e-commerce, integrating OpenAI and advanced functions."
+      "title": "AI Bot for Customer Service",
+      "description": "Smart bot with OpenAI and online store connection to automate queries, orders, and more."
+    },
+    "backend": {
+      "title": "Full Backend with FastAPI",
+      "description": "Professional backend with FastAPI, PostgreSQL database, admin panel, and authentication."
     },
     "scraper": {
-      "title": "Automated Scraper",
-      "description": "System that extracts products and prices in real time from websites like Wix using Selenium."
+      "title": "Automatic Web Scraper",
+      "description": "Script that extracts products and prices from any website using Selenium and updates itself."
     },
-    "dashboard": {
-      "title": "Admin Dashboard",
-      "description": "Professional dashboard with stats, product and user management, and rewards system."
+    "todo": {
+      "title": "Personal To-Do App",
+      "description": "Task manager with intuitive interface, filters, priorities, and local storage."
+    },
+    "form": {
+      "title": "Contact Form",
+      "description": "Form connected to Formspree with custom design, animations, and user feedback."
     }
   },
   "contact": {

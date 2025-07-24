@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
+import Services from "./components/Services";
 
 const App = () => {
   return (
@@ -12,6 +13,9 @@ const App = () => {
       <Layout>
         <section id="home">
           <Home />
+        </section>
+        <section id="services">
+          <Services />
         </section>
         <section id="skills">
           <Skills />
