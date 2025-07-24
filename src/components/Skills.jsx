@@ -10,7 +10,7 @@ const Skills = () => {
     <section
       id="skills"
       className="min-h-screen max-w-6xl mx-auto px-6 pt-40 bg-gradient-to-b from-black/80 to-black/90 flex flex-col"
-      style={{ scrollMarginTop: "80px", paddingBottom: "1rem" }}
+      style={{ scrollMarginTop: "80px", paddingBottom: "1rem", marginTop: "4rem" }}
     >
       <h2
         style={{

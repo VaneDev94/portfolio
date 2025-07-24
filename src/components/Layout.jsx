@@ -25,7 +25,7 @@ export default function Layout({ children }) {
       </div>
 
       <Navbar />
-      <main className="flex-grow w-full bg-transparent">{children}</main>
+      <main className="flex-grow w-full bg-transparent px-[1rem] py-[4rem]">{children}</main>
 
       {/* Footer transparente para no cortar fondo */}
     </div>

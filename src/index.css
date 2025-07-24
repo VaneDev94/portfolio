@@ -84,3 +84,21 @@ a:hover {
   margin-top: 6rem;
   padding-bottom: 0;
 }
+
+@media (max-width: 640px) {
+  .section {
+    padding: 1rem;
+  }
+
+  .domain-large {
+    font-size: 2rem !important;
+  }
+
+  .menu-large {
+    font-size: 1.1rem !important;
+  }
+
+  .lang-btn-large {
+    font-size: 0.9rem !important;
+  }
+}

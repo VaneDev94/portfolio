@@ -48,10 +48,11 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center bg-transparent mb-0 pb-0"
-      style={{ padding: 3, borderTop: "none", boxShadow: "none" }}
+      className="flex flex-col items-center justify-center bg-transparent mb-0 pb-[4rem]"
+      style={{ paddingTop: "3rem", paddingBottom: "0", borderTop: "none", boxShadow: "none" }}
     >
       <h2
+        className="mb-4"
         style={{
           background: "linear-gradient(90deg, #8ffefa, #2da59c)",
           WebkitBackgroundClip: "text",
@@ -59,6 +60,7 @@ const Contact = () => {
           fontWeight: "800",
           fontSize: "4.5rem",
           marginBottom: "1rem",
+          marginTop: "0",
           textAlign: "center",
         }}
       >
@@ -90,7 +92,7 @@ const Contact = () => {
           border: "1px solid #2c3039",
           backdropFilter: "blur(10px)",
           marginTop: "1rem",
-          marginBottom: "-1.5rem",
+          marginBottom: "2rem",
         }}
       >
         <form

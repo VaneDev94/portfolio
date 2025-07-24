@@ -18,7 +18,7 @@ const Projects = () => {
       id="projects"
       style={{
         paddingTop: "0rem",
-        paddingBottom: "3rem",
+        paddingBottom: "1.5rem",
       }}
       className="max-w-7xl mx-auto px-6 bg-gradient-to-b from-black/80 to-black/90 min-h-screen"
     >
@@ -29,7 +29,8 @@ const Projects = () => {
           WebkitTextFillColor: "transparent",
           fontWeight: "800",
           fontSize: "3.75rem",
-          marginBottom: "4rem",
+          marginTop: "0rem",
+          marginBottom: "2rem",
           textAlign: "center",
           fontFamily: "'Poppins', sans-serif",
         }}

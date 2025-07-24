@@ -20,7 +20,7 @@ const Navbar = () => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="fixed top-0 left-0 z-50 w-full bg-gradient-to-b from-[#0f0f0f]/90 to-[#050505]/80 backdrop-blur-md py-5 border-b border-white/5 shadow-md"
     >
-      <div className="flex items-center justify-between h-[65px] max-w-[1400px] mx-auto px-6">
+      <div className="flex items-center justify-between h-[65px] max-w-[1400px] mx-auto px-6 px-[1rem] py-[2rem]">
         {/* Dominio izquierda */}
         <a href="https://vanessam.dev/" className="flex items-center">
           <img

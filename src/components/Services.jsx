@@ -30,7 +30,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="max-w-6xl mx-auto px-2 py-[0rem] pb-[5rem] bg-black text-white text-center"
+      className="max-w-6xl mx-auto px-2 py-[0rem] pb-[2rem] bg-black text-white text-center"
     >
       <h2 className="text-[3rem] md:text-[4rem] font-bold text-center mb-[3.5rem] bg-gradient-to-r from-[#8fefee] via-[#3ee6c1] to-[#2da59c] text-transparent bg-clip-text leading-tight tracking-wide">
         {t("services.title")}

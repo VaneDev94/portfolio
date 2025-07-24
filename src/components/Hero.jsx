@@ -6,7 +6,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative flex flex-col items-center justify-center text-center p-6 text-foreground pb-[1rem]">
+    <section className="relative flex flex-col items-center justify-center text-center px-6 py-[6rem] text-foreground">
       <span className="absolute -top-32 -left-32 w-[600px] h-[600px] bg-primary rounded-full blur-[120px] opacity-30 pointer-events-none" />
 
       <div className="max-w-3xl w-full">
