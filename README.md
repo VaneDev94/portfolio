@@ -29,5 +29,22 @@ Puedes visitar el portfolio online en:
 - `/src/locales`: Archivos de traducción para múltiples idiomas.
 - `vite.config.js`: Configuración base para GitHub Pages.
 
+## 🚀 Comandos para actualizar la web
+
+1. Guardar cambios en VS Code (⌘S o Ctrl+S).
+2. Abrir la terminal en la raíz del proyecto y ejecutar:
+
+   ```bash
+   git add .
+   git commit -m "Descripción del cambio"
+   git push
+   ```
+
+3. Finalmente, publicar los cambios con:
+
+   ```bash
+   npm run deploy
+   ```
+
 ---
 © 2025 Vanessa Montero. Todos los derechos reservados.
