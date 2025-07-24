@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <TransitionEffect />
-      <main className="relative flex flex-col items-center justify-center min-h-screen h-full overflow-hidden text-center w-full bg-transparent">
+      <main className="relative flex flex-col items-center justify-center min-h-screen h-full overflow-hidden text-center w-full bg-transparent pb-[0rem]">
         <div className="max-w-5xl px-6 text-center z-10 mx-auto flex flex-col items-center justify-center">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
