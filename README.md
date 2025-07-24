@@ -43,6 +43,7 @@ Puedes visitar el portfolio online en:
 3. Finalmente, publicar los cambios con:
 
    ```bash
+   npm run build
    npm run deploy
    ```
 
