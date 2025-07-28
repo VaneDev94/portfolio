@@ -5,9 +5,7 @@ import { useTranslation } from "react-i18next";
 const projects = [
   { img: "/assets/botia.png", key: "bot", visitar: "#", portfolio: "#" },
   { img: "/assets/backendweb.png", key: "fullbackend", visitar: "#", portfolio: "#" },
-  { img: "/assets/scraperweb.png", key: "scraper", visitar: "#", portfolio: "#" },
-  { img: "/assets/todoapp.png", key: "todoapp", visitar: "#", portfolio: "#" },
-  { img: "/assets/formcontacto.png", key: "contactform", visitar: "#", portfolio: "#" },
+  { img: "/assets/panelcustom.png", key: "panel", visitar: "#", portfolio: "#" },
 ];
 
 const Projects = () => {

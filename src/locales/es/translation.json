@@ -64,17 +64,17 @@
       "title": "Bot para WhatsApp",
       "description": "Bot para gestionar pedidos y consultas por WhatsApp con integración inteligente."
     },
+    "panel": {
+      "title": "Panel de administración",
+      "description": "Panel web personalizado para gestionar productos, pedidos, recompensas y herramientas internas para desarrolladores. Actualmente en desarrollo."
+    },
     "formulario": {
       "title": "Formulario personalizado",
       "description": "Formulario de contacto funcional y con diseño adaptado al estilo de la web."
     },
-    "scraper": {
-      "title": "Scraper de productos",
-      "description": "Scraper con Selenium para obtener productos en tiempo real desde una web con JavaScript."
-    },
     "adminpanel": {
       "title": "Panel de administración",
-      "description": "Panel personalizado para gestionar pedidos, productos, recompensas y mantenimiento del backend."
+      "description": "Panel web personalizado para gestionar productos, pedidos, recompensas y herramientas internas para desarrolladores. Actualmente en desarrollo."
     },
     "recompensas": {
       "title": "Sistema de recompensas",
@@ -87,10 +87,6 @@
     "fullbackend": {
       "title": "Backend completo con FastAPI",
       "description": "Sistema backend profesional con autenticación, puntos de fidelización, panel de administración, y base de datos PostgreSQL. Optimizado para producción y escalable."
-    },
-    "todoapp": {
-      "title": "App de tareas personal",
-      "description": "Aplicación de tareas hecha con React. Permite añadir, editar y eliminar tareas con almacenamiento local. Ideal para mantener el control de tus pendientes diarios."
     },
     "contactform": {
       "title": "Formulario de contacto",

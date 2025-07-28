@@ -53,13 +53,9 @@
       "title": "Full Backend with FastAPI",
       "description": "Professional backend with FastAPI, PostgreSQL database, admin panel, and authentication."
     },
-    "scraper": {
-      "title": "Automatic Web Scraper",
-      "description": "Script that extracts products and prices from any website using Selenium and updates itself."
-    },
-    "todo": {
-      "title": "Personal To-Do App",
-      "description": "Task manager with intuitive interface, filters, priorities, and local storage."
+    "panel": {
+      "title": "Custom Admin Panel",
+      "description": "Custom admin panel with user roles, product and order management, and developer tools. Designed to optimize business backends. Currently in development."
     },
     "form": {
       "title": "Contact Form",
