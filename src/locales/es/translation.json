@@ -19,6 +19,7 @@
     "paragraph4": "Con <strong>código limpio</strong> y eficiente.",
     "paragraph5": "Aunque mi fuerte es el <strong>backend</strong> y la <strong>automatización</strong>, también sé moverme en <strong>frontend</strong>."
   },
+  "view": "Ver demo",
   "services": {
     "title": "¿Qué puedo hacer por ti?",
     "backend": {
@@ -44,9 +45,10 @@
   },
   "projects": {
     "title": "Proyectos",
+    "github": "Ver en GitHub",
     "bot": {
       "title": "Bot IA para tiendas",
-      "description": "Bot inteligente que automatiza la atención al cliente en e-commerce, integrando OpenAI y funciones avanzadas."
+      "description": "Bot inteligente que automatiza la atención al cliente en e-commerce, integrando OpenAI y funciones avanzadas. Incluye scraping, API externa y respuestas automáticas."
     },
     "porfolio": {
       "title": "Portfolio profesional",
@@ -66,7 +68,7 @@
     },
     "panel": {
       "title": "Panel de administración",
-      "description": "Panel web personalizado para gestionar productos, pedidos, recompensas y herramientas internas para desarrolladores. Actualmente en desarrollo."
+      "description": "Panel web personalizado para gestionar productos, pedidos, recompensas y herramientas internas. Actualmente en desarrollo."
     },
     "formulario": {
       "title": "Formulario personalizado",
@@ -86,7 +88,7 @@
     },
     "fullbackend": {
       "title": "Backend completo con FastAPI",
-      "description": "Sistema backend profesional con autenticación, puntos de fidelización, panel de administración, y base de datos PostgreSQL. Optimizado para producción y escalable."
+      "description": "Sistema backend profesional con autenticación, puntos de fidelización, panel de administración y base de datos PostgreSQL. Demo aún no disponible."
     },
     "contactform": {
       "title": "Formulario de contacto",

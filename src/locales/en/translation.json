@@ -5,6 +5,7 @@
     "skills": "Skills",
     "contact": "Contact"
   },
+  "view": "View demo",
   "hero": {
     "greeting": "Hello! I'm",
     "title1": "Developer Junior",
@@ -43,24 +44,23 @@
   },
   "projects": {
     "title": "Projects",
-    "view": "View project",
-    "more": "More info",
     "bot": {
       "title": "AI Bot for Customer Service",
       "description": "Smart bot with OpenAI and online store connection to automate queries, orders, and more."
     },
-    "backend": {
+    "fullbackend": {
       "title": "Full Backend with FastAPI",
-      "description": "Professional backend with FastAPI, PostgreSQL database, admin panel, and authentication."
+      "description": "Professional backend with authentication, rewards system, admin panel, and PostgreSQL database. Demo not available yet."
     },
     "panel": {
       "title": "Custom Admin Panel",
-      "description": "Custom admin panel with user roles, product and order management, and developer tools. Designed to optimize business backends. Currently in development."
+      "description": "Custom web panel to manage products, orders, rewards, and internal tools. Currently in development."
     },
     "form": {
       "title": "Contact Form",
       "description": "Form connected to Formspree with custom design, animations, and user feedback."
-    }
+    },
+    "github": "View on GitHub"
   },
   "contact": {
     "title": "Contact Me",

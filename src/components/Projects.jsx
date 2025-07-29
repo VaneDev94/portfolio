@@ -3,9 +3,24 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 const projects = [
-  { img: "/assets/botia.png", key: "bot", visitar: "#", portfolio: "#" },
-  { img: "/assets/backendweb.png", key: "fullbackend", visitar: "#", portfolio: "#" },
-  { img: "/assets/panelcustom.png", key: "panel", visitar: "#", portfolio: "#" },
+  {
+    img: "/assets/botia.png",
+    key: "bot",
+    visitar: "http://127.0.0.1:8000/docs",
+    portfolio: "https://github.com/VaneDev94/quirkybot-fastapi"
+  },
+  {
+    img: "/assets/backendweb.png",
+    key: "fullbackend",
+    visitar: "",
+    portfolio: ""
+  },
+  {
+    img: "/assets/panelcustom.png",
+    key: "panel",
+    visitar: "",
+    portfolio: ""
+  },
 ];
 
 const Projects = () => {
@@ -57,22 +72,16 @@ const Projects = () => {
               {t(`projects.${p.key}.description`)}
             </p>
             <div className="flex justify-center gap-4 text-sm font-semibold">
-              <a
-                href={p.visitar}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#00FFC9] hover:underline"
-              >
-                {t("projects.view")}
-              </a>
-              <a
-                href={p.portfolio}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#00FFC9] hover:underline"
-              >
-                {t("projects.more")}
-              </a>
+              {p.portfolio && (
+                <a
+                  href={p.portfolio}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#00FFC9] hover:underline"
+                >
+                  {t("projects.github")}
+                </a>
+              )}
             </div>
           </motion.div>
         ))}
