@@ -51,33 +51,14 @@ const Contact = () => {
       className="flex flex-col items-center justify-center bg-transparent mb-0 pb-[4rem]"
       style={{ paddingTop: "3rem", paddingBottom: "0", borderTop: "none", boxShadow: "none" }}
     >
-      <h2
-        className="mb-4"
-        style={{
-          background: "linear-gradient(90deg, #8ffefa, #2da59c)",
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-          fontWeight: "800",
-          fontSize: "4.5rem",
-          marginBottom: "1rem",
-          marginTop: "0",
-          textAlign: "center",
-        }}
-      >
-        {t("contact.title")}
-      </h2>
-
-      <p
-        style={{
-          textAlign: "center",
-          color: "white",
-          fontWeight: "600",
-          marginBottom: "2rem",
-          fontSize: "1.125rem",
-        }}
-      >
-        {t("contact.description")}
-      </p>
+      <div className="mx-auto mb-6 max-w-3xl text-center">
+        <h3 className="mb-2 text-2xl font-bold" style={{ color: "#3ee6c1" }}>
+          {t("contact.title")}
+        </h3>
+        <p className="text-base sm:text-lg text-white/80">
+          {t("contact.description")}
+        </p>
+      </div>
 
       <div
         style={{

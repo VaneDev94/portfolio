@@ -36,26 +36,6 @@ const Hero = () => {
         >
           {t('hero.description')}
         </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6, duration: 0.6 }}
-          className="flex justify-center gap-4"
-        >
-          <a
-            href="#projects"
-            className="px-5 py-2 rounded-md bg-primary text-white hover:bg-opacity-90 transition"
-          >
-            {t('hero.projects')}
-          </a>
-          <a
-            href="#contact"
-            className="px-5 py-2 rounded-md border border-primary text-primary hover:bg-primary hover:text-white transition"
-          >
-            {t('hero.contact')}
-          </a>
-        </motion.div>
       </div>
     </section>
   );

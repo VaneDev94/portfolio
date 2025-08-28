@@ -11,7 +11,7 @@
     "title1": "Desarrolladora Junior",
     "title2": "Bots, backend & Automatización",
     "subtitle": "Desarrollo bots, automatizaciones y backends personalizados. Me encanta crear sistemas que hacen el trabajo por ti, conectan servicios y simplifican procesos.",
-    "contact": "Contáctame",
+    "contact": "Solicitar presupuesto",
     "projects": "Ver proyectos",
     "paragraph1": "<strong>Me encanta crear soluciones inteligentes</strong> que automatizan tareas.",
     "paragraph2": "<strong>Conectan servicios</strong> y hacen el trabajo por ti.",
@@ -21,7 +21,8 @@
   },
   "view": "Ver demo",
   "services": {
-    "title": "¿Qué puedo hacer por ti?",
+    "kicker": "¿Qué puedo hacer por ti?",
+    "title": "Servicios y soluciones",
     "backend": {
       "title": "¿Quieres un backend a medida para tu tienda?",
       "description": "Te creo toda la lógica: bases de datos, pagos, login social, recompensas y panel admin."
@@ -44,6 +45,7 @@
     }
   },
   "projects": {
+    "kicker": "Trabajos",
     "title": "Proyectos",
     "github": "Ver en GitHub",
     "bot": {
@@ -69,6 +71,10 @@
     "panel": {
       "title": "Panel de administración",
       "description": "Panel web personalizado para gestionar productos, pedidos, recompensas y herramientas internas. Actualmente en desarrollo."
+    },
+    "voiceclone": {
+      "title": "Web de clonación de voz",
+      "description": "Proyecto web enfocado en la clonación de voz con IA, parte del ecosistema Dubloop. Actualmente en progreso."
     },
     "formulario": {
       "title": "Formulario personalizado",
@@ -96,8 +102,8 @@
     }
   },
   "contact": {
-    "title": "Contáctame",
-    "description": "Puedes escribirme directamente por correo o ver mis proyectos en GitHub. Si tienes una idea o una propuesta, cuéntamela sin compromiso. Todos los proyectos son diferentes, así que estaré encantada de escucharte. Disponible para proyectos freelance y colaboraciones.",
+    "title": "¿Hablamos?",
+    "description": "Si tienes una idea o una propuesta, cuéntamela sin compromiso. Todos los proyectos son diferentes, así que estaré encantada de escucharte. Disponible para proyectos freelance y colaboraciones.",
     "email": "vanedev.contacto@gmail.com",
     "github": "Ir al GitHub",
     "name": "Nombre",
@@ -112,13 +118,21 @@
     "text": "Disponible para proyectos freelance y colaboraciones."
   },
   "skills": {
-    "title": "Habilidades & Herramientas",
+    "kicker": "Stack",
+    "title": "Habilidades y Herramientas",
     "frameworks": {
       "title": "Frameworks",
       "list": [
         "FastAPI",
         "React",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "Next.js",
+        "Vite",
+        "Framer Motion",
+        "Wix Blocks / Wix API",
+        "Express.js",
+        "Socket.IO",
+        "Pydub"
       ]
     },
     "languages": {
@@ -127,11 +141,12 @@
         "Python",
         "JavaScript",
         "HTML",
-        "CSS"
+        "CSS",
+        "TypeScript"
       ]
     },
     "concepts": {
-      "title": "Conceptos & Nociones",
+      "title": "Conceptos y Nociones",
       "list": [
         "Scraping Web con Selenium y BeautifulSoup",
         "Automatización de Bots",
@@ -142,7 +157,12 @@
         "Despliegue y hosting básico",
         "Internacionalización multilenguaje",
         "Desarrollo backend y frontend",
-        "Diseño y arquitectura de APIs"
+        "Diseño y arquitectura de APIs",
+        "Pipelines de Doblaje con IA",
+        "Transcripción con Whisper",
+        "Clonación de Voz",
+        "Integración de Pagos con Stripe",
+        "OAuth2 & Login Social (Google, Facebook)"
       ]
     },
     "tools": {
@@ -158,7 +178,15 @@
         "Alembic (Migraciones)",
         "Framer Motion",
         "i18next (i18n)",
-        "VS Code"
+        "VS Code",
+        "Stripe",
+        "Whisper",
+        "ElevenLabs",
+        "DeepL",
+        "FFmpeg",
+        "Ngrok",
+        "Railway",
+        "Postman"
       ]
     }
   }

@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 
 export default function Layout({ children }) {
   // Valores para mover luces (top y left pueden ser % o px)
@@ -24,10 +23,8 @@ export default function Layout({ children }) {
         ></div>
       </div>
 
-      <Navbar />
       <main className="flex-grow w-full bg-transparent px-[1rem] py-[4rem]">{children}</main>
 
-      {/* Footer transparente para no cortar fondo */}
     </div>
   );
 }

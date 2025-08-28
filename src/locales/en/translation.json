@@ -11,8 +11,8 @@
     "title1": "Developer Junior",
     "title2": "Bots, backend & Automations.",
     "subtitle": "I develop bots, automations, and custom backends that do the work for you, connect services, and simplify processes.",
-    "contact": "Contact Me",
-    "projects": "See Projects",
+    "contact": "Request a Quote",
+    "projects": "View Projects",
     "paragraph1": "<strong>I love creating smart solutions</strong> that automate tasks.",
     "paragraph2": "<strong>They connect services</strong> and do the work for you.",
     "paragraph3": "I combine <strong>creativity</strong> and <strong>logic</strong> to solve real problems.",
@@ -20,7 +20,8 @@
     "paragraph5": "Although my strength is backend and automation, I can also handle frontend."
   },
   "services": {
-    "title": "What I Can Do For You",
+    "kicker": "What can I do for you?",
+    "title": "Services & Solutions",
     "backend": {
       "title": "Need a custom backend for your store?",
       "description": "I build all the logic: databases, payments, social login, rewards system, and admin panel."
@@ -43,6 +44,7 @@
     }
   },
   "projects": {
+    "kicker": "Work",
     "title": "Projects",
     "bot": {
       "title": "AI Bot for Customer Service",
@@ -56,6 +58,10 @@
       "title": "Custom Admin Panel",
       "description": "Custom web panel to manage products, orders, rewards, and internal tools. Currently in development."
     },
+    "voiceclone": {
+      "title": "Voice Cloning Web",
+      "description": "Web project focused on AI-powered voice cloning, part of the Dubloop ecosystem. Currently in progress."
+    },
     "form": {
       "title": "Contact Form",
       "description": "Form connected to Formspree with custom design, animations, and user feedback."
@@ -63,8 +69,8 @@
     "github": "View on GitHub"
   },
   "contact": {
-    "title": "Contact Me",
-    "description": "You can write to me directly by email or check out my projects on GitHub. If you have an idea or proposal, feel free to tell me about it. Every project is different, and I'm happy to hear from you. Available for freelance projects and collaborations.",
+    "title": "Shall we talk?",
+    "description": "If you have an idea or a proposal, feel free to tell me without obligation. Every project is different, so I’ll be happy to listen. Available for freelance projects and collaborations.",
     "email": "vanedev.contacto@gmail.com",
     "github": "Go to GitHub",
     "name": "Name",
@@ -79,13 +85,21 @@
     "text": "Available for freelance projects and collaborations."
   },
   "skills": {
+    "kicker": "Stack",
     "title": "Skills & Tools",
     "frameworks": {
       "title": "Frameworks",
       "list": [
         "FastAPI",
         "React",
-        "Tailwind CSS"
+        "Tailwind CSS",
+        "Next.js",
+        "Vite",
+        "Framer Motion",
+        "Wix Blocks / Wix API",
+        "Express.js",
+        "Socket.IO",
+        "Pydub"
       ]
     },
     "languages": {
@@ -94,7 +108,8 @@
         "Python",
         "JavaScript",
         "HTML",
-        "CSS"
+        "CSS",
+        "TypeScript"
       ]
     },
     "concepts": {
@@ -109,7 +124,12 @@
         "Basic deployment and hosting",
         "Multilanguage internationalization",
         "Backend and frontend development",
-        "API design and architecture"
+        "API design and architecture",
+        "AI Dubbing Pipelines",
+        "Whisper Transcription",
+        "Voice Cloning",
+        "Stripe Payments Integration",
+        "OAuth2 & Social Login (Google, Facebook)"
       ]
     },
     "tools": {
@@ -125,7 +145,15 @@
         "Alembic (Migrations)",
         "Framer Motion",
         "i18next (i18n)",
-        "VS Code"
+        "VS Code",
+        "Stripe",
+        "Whisper",
+        "ElevenLabs",
+        "DeepL",
+        "FFmpeg",
+        "Ngrok",
+        "Railway",
+        "Postman"
       ]
     }
   }

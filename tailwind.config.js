@@ -1,6 +1,5 @@
-/Users/vane/Documents/Proyectos_Dev/portfolio-vanessa-CORREGIDO/tailwind.config.js
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx,css}",
