@@ -49,10 +49,10 @@ const Contact = () => {
     <section
       id="contact"
       className="flex flex-col items-center justify-center bg-transparent mb-0 pb-[4rem]"
-      style={{ paddingTop: "3rem", paddingBottom: "0", borderTop: "none", boxShadow: "none" }}
+      style={{ paddingTop: "2rem", paddingBottom: "0", borderTop: "none", boxShadow: "none" }}
     >
       <div className="mx-auto mb-6 max-w-3xl text-center">
-        <h3 className="mb-2 text-2xl font-bold" style={{ color: "#3ee6c1" }}>
+        <h3 className="mb-1 text-3xl font-bold" style={{ color: "#3ee6c1", marginBottom: "0.75rem" }}>
           {t("contact.title")}
         </h3>
         <p className="text-base sm:text-lg text-white/80">

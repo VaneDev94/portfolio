@@ -8,6 +8,9 @@ import logo from "../assets/logo.png";
 export default function Home() {
   const { t, i18n } = useTranslation();
 
+  const navLink =
+    "relative px-3 py-2 text-white/90 font-medium transition-all duration-200 ease-out hover:scale-110 focus:outline-none hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-[#8fefee] via-[#3ee6c1] to-[#2da59c] after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-gradient-to-r from-[#8fefee] via-[#3ee6c1] to-[#2da59c] after:rounded-full after:transition-all after:duration-300 hover:after:w-8";
+
   // Footer style constants (moved from Footer.jsx)
   const paddingTop = "2.8rem";
   const paddingBottom = "0rem";
@@ -66,25 +69,25 @@ export default function Home() {
           <nav className="flex w-[700px] text-white text-base font-medium font-spaceGrotesk justify-around">
             <a
               href="#home"
-              className="text-white py-2 rounded transition-transform duration-300 ease-in-out hover:scale-140 hover:shadow-lg hover:shadow-white/30 menu-large"
+              className={navLink}
             >
               {t("navbar.home")}
             </a>
             <a
               href="#skills"
-              className="text-white py-2 rounded transition-transform duration-300 ease-in-out hover:scale-140 hover:shadow-lg hover:shadow-white/30 menu-large"
+              className={navLink}
             >
               {t("navbar.skills")}
             </a>
             <a
               href="#projects"
-              className="text-white py-2 rounded transition-transform duration-300 ease-in-out hover:scale-140 hover:shadow-lg hover:shadow-white/30 menu-large"
+              className={navLink}
             >
               {t("navbar.projects")}
             </a>
             <a
               href="#contact"
-              className="text-white py-2 rounded transition-transform duration-300 ease-in-out hover:scale-140 hover:shadow-lg hover:shadow-white/30 menu-large"
+              className={navLink}
             >
               {t("navbar.contact")}
             </a>
@@ -94,7 +97,7 @@ export default function Home() {
           <div>
             <button
               onClick={toggleLanguage}
-              className="text-white px-4 py-2 rounded transition-transform duration-300 ease-in-out hover:scale-120 hover:shadow-lg hover:shadow-white/30 lang-btn-large"
+              className="relative px-3 py-2 text-white/90 font-medium transition-transform duration-200 ease-out hover:scale-110 focus:outline-none"
             >
               {i18n.language === "en" ? "🇬🇧 EN" : "🇪🇸 ES"}
             </button>

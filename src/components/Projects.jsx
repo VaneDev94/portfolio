@@ -1,32 +1,36 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import imgDemobot from "../assets/demobot.png";
+import imgFastapi from "../assets/proyecto-fastapi.png";
+import imgPanel from "../assets/proyecto-paneldeusuario.png";
+import imgDubloop from "../assets/dubloop.png";
 
 const projects = [
   {
     key: "bot",
-    img: "src/assets/demobot.png",
+    img: imgDemobot,
     tags: ["OpenAI", "Scraping", "Automatización"],
     github: "https://github.com/VaneDev94/quirkybot-fastapi",
     link: "https://vanedev94.github.io/frontend-demobot/"
   },
   {
     key: "fullbackend",
-    img: "src/assets/proyecto-fastapi.png",
+    img: imgFastapi,
     tags: ["FastAPI", "PostgreSQL", "Autenticación"],
     github: "",
     link: ""
   },
   {
     key: "panel",
-    img: "src/assets/proyecto-paneldeusuario.png",
+    img: imgPanel,
     tags: ["Dashboards", "Usuarios", "Métricas"],
     github: "",
     link: ""
   },
   {
     key: "voiceclone",
-    img: "src/assets/dubloop.png",
+    img: imgDubloop,
     tags: ["IA", "Clonación de Voz", "Dubloop"],
     github: "",
     link: ""

@@ -8,7 +8,7 @@ import Services from "./components/Services";
 const App = () => {
   const footerMaxWidth = "72rem";
   const footerBorderColor = "rgba(13, 161, 146, 0.5)";
-  const footerMarginTop = "2rem";
+  const footerMarginTop = "10rem";
   const footerMarginBottom = "2rem";
 
   const leftMarginLeft = "0rem";
